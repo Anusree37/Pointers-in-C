@@ -40,6 +40,24 @@ sending address in function:
   =call by reference method
   Changes in formal arguments(function definition) affect in actual arguments(function call)
   Function return more than one value at a time , which is not possible ordinarily.
+
+  # Pointer in array
+  Storing a values in subscripted variable much more easy that declaring a many number of variables;
+          -> Subscripted variable
+                  subscripted variable is a collective name given to the group of similar data.
+                  It is also called as "Array".
+          -> Passing entire pointer array to the function
+                  function_name=(&array_name[0],sizeof_array);//function call should be like this
+          -> Array
+                  array is static memory allocation type, sometimes shortage or wastage of memory will happpen .
+                  To avoid this we need to move "Dynamic memory allocation".
+                  -> Dynamic memory allocation,
+                          need typecasting because it always return void memory from heap.
+                          malloc();
+                                  return garbage value.
+                          calloc();
+                                  return zeros
+        
   
   
 
